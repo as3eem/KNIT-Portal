@@ -15,11 +15,15 @@ class Welcome extends CI_Controller {
 	 * config/routes.php, it's displayed at http://example.com/
 	 *
 	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
+	 * map to /home.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
 	{
-		$this->load->view('aseem');
+		$this->load->view('home');
 	}
+	public function hola()
+    {
+        $this->load->view('aseem');
+    }
 }
