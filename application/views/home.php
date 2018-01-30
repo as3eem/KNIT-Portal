@@ -349,10 +349,8 @@ Author URL: http://github.com/krpiyush5
 		 </div>
 	 </div>
 </div>
-<!---->		
-<div class="map">
-	 <iframe id="map" style="border:0"></iframe>
-</div>
+<!---->
+<div id="googlemap" style="width:100%;height:400px;"></div>
 <!---->	
 <div id="contact" class="contact">
 	 <div class="container">
@@ -449,22 +447,19 @@ Author URL: http://github.com/krpiyush5
 $(function(){
     $("ul#ticker01").liScroll();
 });
-
-
+</script>
+<script>
 function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
+    var myCenter = new google.maps.LatLng(	26.2895579,	82.0807404);
+    var mapCanvas = document.getElementById("googlemap");
+    var mapOptions = {center: myCenter, zoom: 18};
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({position:myCenter});
+    marker.setMap(map);
       }
 </script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=initMap">
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiXt3xU5oqlQ9QkYWeeIBDJEbqBK_MDFc&callback=initMap">
     </script>
 
 <a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
