@@ -77,33 +77,39 @@ Author URL: http://github.com/krpiyush5
 <!--Service-->
 <div id="service" class="service">
 	 <div class="container">
-		 <div class="col-md-6"></div>
+		 <div class="col-md-6">
+             <h3>News & Announcements</h3>
+             <div class="service-grids">
+                 <div class="icon-grids">
+                     <!-- <div class="col-md-offset-2"></div> -->
+                     <!-- <div class="col-md-4"></div> -->
+                     <div class="holder">
+                         <ul id="ticker01">
+                             <li><span>10/11/2017</span><a href="http://www.knit.ac.in/pdf/Notice112018.pdf" target="_blank"> Notice for Online Skill Based Assesments Test(To Facilitate Job and Internship Opportunities) </a></li>
+                             <li><span>10/10/2017</span><a href="http://www.knit.ac.in/pdf/Notice_060118.pdf" target="_blank">Registration for M.Tech (F.T.) II, IV. Sem & M.Tech (P.T). II, IV. VI, Sem</a></li>
+                             <li><span>10/12/2017</span><a href="http://www.knit.ac.in/pdf/Notice042018.pdf" target="_blank">Walk-In Interview for Guest Faculty</a></li>
+                             <li><span>08/1/2018</span><a href="http://www.knit.ac.in/pdf/16Dec2017.pdf" target="_blank">Interview for Network Personnel for CWN Project</a></li>
+                             <li><span>08/1/2018</span><a href="http://www.knit.ac.in/pdf/Scheme-btech_011217.pdf" target="_blank">Final Schedule of B.Tech. First Semester Examination 2017-18 </a></li>
+                             <li><span>05/1/2018</span><a href="http://www.knit.ac.in/pdf/Scheme-mtech_011217.pdf" target="_blank">Final Scheme of M.Tech (Regular) odd Semester Examination 2017-18</a></li>
+                             <li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/quotation_211117.pdf" target="_blank">TEQIP-III Invitation of Quotation under Shopping to be open on 11.12.2017</a></li>
+                             <li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/25Oct2017.pdf" target="_blank">Student of B.tech. (All Branch) and MCA are Required to fill their Examination Form</a></li>
+                             <li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/Notice26Sept2017.pdf" target="_blank">Notice for Candidates applied for the Post of Assistant Professor in various Courses/Programmes</a></li>
+                             <li><span>03/1/2018</span><a href="http://www.knit.ac.in/pdf/notice_290717.pdf" target="_blank">Notice for newly admitted students for Academic Year 2017-18 regarding class</a></li>
+                             <li><span>03/1/2018</span><a href="http://www.knit.ac.in/pdf/Mess_Notice_2017-18.pdf" target="_blank">Mess Notice for B.Tech and MCA First Year Students</a></li>
+                             <li><span>01/1/2018</span><a href="http://www.knit.ac.in/pdf/notice290116.pdf" target="_blank">Ombudsman for Grievance Redressal</a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
 		 <div class="col-md-6">
 		 
-		 <h3>News & Announcements</h3>	
-		 <div class="service-grids">
-		 <div class="icon-grids">
-		 <!-- <div class="col-md-offset-2"></div> -->
-		 <!-- <div class="col-md-4"></div> -->
-		 	<div class="holder">
-  					<ul id="ticker01">
-                        <li><span>10/11/2017</span><a href="http://www.knit.ac.in/pdf/Notice112018.pdf" target="_blank"> Notice for Online Skill Based Assesments Test(To Facilitate Job and Internship Opportunities) </a></li>
-                        <li><span>10/10/2017</span><a href="http://www.knit.ac.in/pdf/Notice_060118.pdf" target="_blank">Registration for M.Tech (F.T.) II, IV. Sem & M.Tech (P.T). II, IV. VI, Sem</a></li>
-							<li><span>10/12/2017</span><a href="http://www.knit.ac.in/pdf/Notice042018.pdf" target="_blank">Walk-In Interview for Guest Faculty</a></li>
-							<li><span>08/1/2018</span><a href="http://www.knit.ac.in/pdf/16Dec2017.pdf" target="_blank">Interview for Network Personnel for CWN Project</a></li>
-							<li><span>08/1/2018</span><a href="http://www.knit.ac.in/pdf/Scheme-btech_011217.pdf" target="_blank">Final Schedule of B.Tech. First Semester Examination 2017-18 </a></li>
-							<li><span>05/1/2018</span><a href="http://www.knit.ac.in/pdf/Scheme-mtech_011217.pdf" target="_blank">Final Scheme of M.Tech (Regular) odd Semester Examination 2017-18</a></li>
-							<li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/quotation_211117.pdf" target="_blank">TEQIP-III Invitation of Quotation under Shopping to be open on 11.12.2017</a></li>
-							<li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/25Oct2017.pdf" target="_blank">Student of B.tech. (All Branch) and MCA are Required to fill their Examination Form</a></li>
-							<li><span>04/1/2018</span><a href="http://www.knit.ac.in/pdf/Notice26Sept2017.pdf" target="_blank">Notice for Candidates applied for the Post of Assistant Professor in various Courses/Programmes</a></li>
-							<li><span>03/1/2018</span><a href="http://www.knit.ac.in/pdf/notice_290717.pdf" target="_blank">Notice for newly admitted students for Academic Year 2017-18 regarding class</a></li>
-							<li><span>03/1/2018</span><a href="http://www.knit.ac.in/pdf/Mess_Notice_2017-18.pdf" target="_blank">Mess Notice for B.Tech and MCA First Year Students</a></li>
-							<li><span>01/1/2018</span><a href="http://www.knit.ac.in/pdf/notice290116.pdf" target="_blank">Ombudsman for Grievance Redressal</a></li>
-					</ul>
-			</div>
-		 </div>
-         </div>
-	
+<!--
+
+
+
+-->
 		 </div>
 	 </div>
 </div>
