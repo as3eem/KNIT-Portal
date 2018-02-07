@@ -25,5 +25,10 @@ class Welcome extends CI_Controller {
 	public function hola()
     {
         $this->load->view('aseem');
+
+    }
+    public function campusFacility(){
+	    $this->load->view('aseem');
+	    $this->load->view('facility');
     }
 }
