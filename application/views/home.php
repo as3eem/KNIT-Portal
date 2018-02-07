@@ -103,7 +103,72 @@ Author URL: http://github.com/krpiyush5
              </div>
          </div>
 
-             <div class="col-md-6"></div>
+             <div class="col-md-6">
+                 <div class="row affix-row">
+                     <div class="col-sm-6  col-md-6 affix-sidebar">
+                         <div class="sidebar-nav">
+                             <div class="navbar navbar-default" role="navigation">
+                                 <div class="navbar-header">
+                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                                         <span class="sr-only">Toggle navigation</span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                     </button>
+                                     <span class="visible-xs navbar-brand">Sidebar menu</span>
+                                 </div>
+                                 <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                                     <ul class="nav navbar-nav" id="sidenav01">
+                                         <li class="active">
+                                             <a href="#" data-toggle="collapse" data-target="#toggleDemo0" data-parent="#sidenav01" class="collapsed">
+                                                 <h4>
+                                                     Control Panel
+                                                     <br>
+                                                     <small>IOSDSV <span class="caret"></span></small>
+                                                 </h4>
+                                             </a>
+                                             <div class="collapse" id="toggleDemo0" style="height: 0px;">
+                                                 <ul class="nav nav-list">
+                                                     <li><a href="#">ProfileSubMenu1</a></li>
+                                                     <li><a href="#">ProfileSubMenu2</a></li>
+                                                     <li><a href="#">ProfileSubMenu3</a></li>
+                                                 </ul>
+                                             </div>
+                                         </li>
+                                         <li>
+                                             <a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+                                                 <span class="glyphicon glyphicon-cloud"></span> Submenu 1 <span class="caret pull-right"></span>
+                                             </a>
+                                             <div class="collapse" id="toggleDemo" style="height: 0px;">
+                                                 <ul class="nav nav-list">
+                                                     <li><a href="#">Submenu1.1</a></li>
+                                                     <li><a href="#">Submenu1.2</a></li>
+                                                     <li><a href="#">Submenu1.3</a></li>
+                                                 </ul>
+                                             </div>
+                                         </li>
+                                         <li class="active">
+                                             <a href="#" data-toggle="collapse" data-target="#toggleDemo2" data-parent="#sidenav01" class="collapsed">
+                                                 <span class="glyphicon glyphicon-inbox"></span> Submenu 2 <span class="caret pull-right"></span>
+                                             </a>
+                                             <div class="collapse" id="toggleDemo2" style="height: 0px;">
+                                                 <ul class="nav nav-list">
+                                                     <li><a href="#">Submenu2.1</a></li>
+                                                     <li><a href="#">Submenu2.2</a></li>
+                                                     <li><a href="#">Submenu2.3</a></li>
+                                                 </ul>
+                                             </div>
+                                         </li>
+                                         <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Normalmenu</a></li>
+                                         <li><a href="#"><span class="glyphicon glyphicon-calendar"></span> WithBadges <span class="badge pull-right">42</span></a></li>
+                                         <li><a href=""><span class="glyphicon glyphicon-cog"></span> PreferencesMenu</a></li>
+                                     </ul>
+                                 </div><!--/.nav-collapse -->
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
 
 
 
@@ -114,20 +179,20 @@ Author URL: http://github.com/krpiyush5
 </div>
 <!--about-->
 <div id="about" class="about">
-    <div class="container">
+<!--    <div class="container">-->
          <div class="about-left"></div>
          <div class="about-right">
             <h3>About Us</h3>
 
             <p> KNIT was initially established as the Faculty of Technology in the year 1976 by Kamla Nehru Memorial Trust. It was taken over by the Govt. of Uttar Pradesh in 1979 with a view to developing a full-fledged Engineering Institute in the Eastern UP region better known as the Awadh region. Later, in the year 1983 it was registered as a separate society and renamed as the Kamla Nehru Institute of Technology. The Institute is one of the leading technical Institutions of the region and is responsible for producing top-grade engineers with skill sets comparable with the best in the world. Being fully aware of its social responsibilities and the addressing the issue of application of technology to industry, it also renders the testing and consultancy services to the neighboring industries and various other agencies. The Institute is presently affiliated to Dr. A.P.J. Abdul Kalam Technical University, formerly Uttar Pradesh Technical University,Lucknow. </p>
-           <div class="col-md-3"><h4><a href="<?= base_url()?>">Campus Facility</a></h4></div>
+           <div class="col-md-3"><h4><a href="<?= base_url()?>index.php/Welcome/campusFacility">Campus Facility</a></h4></div>
            <div class="col-md-3"><h4><a href="http://knit.ac.in/pdf/Memorandum.pdf">Memorandum</a></h4></div>
            <div class="col-md-3"><h4><a href="http://knit.ac.in/vision.htm">KNIT Vision</a></h4></div>
            <div class="col-md-3"><h4><a href="http://knit.ac.in/rules.htm" target="_blank">Rules</a></h4></div>
 
          </div>
 	 <div class="clearfix"></div>
-    </div>
+<!--    </div>-->
 </div>
 <!--gallery -->
 		<script src="<?=base_url()?>Public/js/jquery.chocolat.js"></script>
